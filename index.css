@@ -1,0 +1,51 @@
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,112,1) 33%, rgba(0,212,255,1) 100%);
+    
+}
+
+.latitude{
+    border: 0px solid red;
+   
+    font-size: 30px;
+    font-family: sans-serif;
+    
+    text-align: center;
+
+    
+}
+
+.longitude{
+    font-size: 30px;
+    font-family: sans-serif;
+    
+    text-align: center;
+
+}
+
+#getlocation{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: transparent;
+    background-color: rgb(103, 246, 234);
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#getlocation:hover{
+    cursor: pointer;
+    background-color: rgb(129, 99, 62);
+    border: none;
+    transition: 1s;
+    
+
+}
+
+#location{
+    border: 0px solid rebeccapurple;
+    width: 50%;
+    margin: auto;
+}
