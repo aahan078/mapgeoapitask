@@ -12,7 +12,7 @@ const main =document.getElementById("location");
 
 const box= document.createElement("p");
 box.className="latitude"
-box.innerHTML= `Your latitude is - ${latitude}` ;
+box.innerHTML= `Your latitude is - ${latitude}` 
 
 const box2 = document.createElement("p");
 box2.className="longitude"
